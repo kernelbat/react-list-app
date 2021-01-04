@@ -11,3 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body { font-family: 'Poppins', sans-serif !important; }
+button.button { padding: 10px 15px; background: #5a67d8; color: #fff; outline: 5px auto -webkit-focus-ring-color; }
+
