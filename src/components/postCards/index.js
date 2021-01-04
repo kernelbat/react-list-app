@@ -1,4 +1,5 @@
 import React from 'react';
+// listing cards
 const PostCard = (props) => {
     let { ie, children, liClass } = props
     return (

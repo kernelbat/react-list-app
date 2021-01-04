@@ -18,12 +18,12 @@ export default (state = INIT_STATE, action) => {
         case LIST_POSTS_SUCCESS:
             return {
                 ...state,
-                list_blog: [...state.list_blog, ...action.payload]
+                list_blog: [...state.list_blog, ...action.payload]//blog list
             }
         case LIST_USER_SUCCESS:
             return {
                 ...state,
-                list_user: [...state.list_user, ...action.payload]
+                list_user: [...state.list_user, ...action.payload]//user list
             }
         default:
             return {

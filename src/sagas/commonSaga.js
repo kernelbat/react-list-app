@@ -15,9 +15,7 @@ function* listDataFunction({ payload }) {
     try {
         let { url } = payload
         const results = yield call(Axios.axiosHelperFunc, 'get', url, {})
-        console.log('results', results)
         if (results.data.code != 200) {
-            // yield put(apiFailed(results.data.title))
         } else {
             if (url.includes('posts')) {
                 yield put(listPostSuccess(results.data.data))

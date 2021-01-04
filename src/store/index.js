@@ -18,7 +18,7 @@ export default function configureStore(initialState) {
     const store = createStore(reducers(history), initialState,
         composeEnhancers(applyMiddleware(...middlewares)));
 
-    sagaMiddleware.run(rootSaga);
+    sagaMiddleware.run(rootSaga);//start saaga
 
     if (module.hot) {
         // Enable Webpack hot module replacement for reducers

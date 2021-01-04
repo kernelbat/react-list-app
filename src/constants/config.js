@@ -1,5 +1,5 @@
 const AppConfig = {
-    baseUrl: 'https://gorest.co.in/public-api/',
+    baseUrl: 'https://gorest.co.in/public-api/',//for base url
 
 }
 

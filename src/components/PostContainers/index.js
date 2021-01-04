@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import { listData } from 'actions'
+// common containers
 class PostContainers extends Component {
     constructor(props) {
         super(props);
